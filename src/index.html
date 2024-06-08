@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="max-w-screen-2xl mx-auto relative ">
+      <!-- menu part -->
+      <div class="relative">
+        <!-- navbar -->
+        <nav
+          class=" bg-second-Color p-4 lg:px-20 flex items-center justify-between transition-all duration-300" id="navBar"
+        >
+          <span class="w-[30px] relative lg:hidden">
+            <i
+              class="fas fa-bars text-2xl text-basic-Color cursor-pointer"
+              id="menu-icon"
+            ></i>
+            <ul
+              class="w-[200px] h-0 overflow-hidden absolute top-[105%] right-0 flex-col items-center transition-all duration-300 flex"
+              id="sm-menuBar"
+            >
+              <li
+                class="bg-white p-2 w-full hover:bg-second-Color transition-all duration-300 cursor-pointer"
+              >
+                <a href="#">صفحه نخست</a>
+              </li>
+              <li
+                class="bg-white p-2 w-full hover:bg-second-Color transition-all duration-300 cursor-pointer"
+              >
+                <a href="#">درباره ما</a>
+              </li>
+              <li
+                class="bg-white p-2 w-full hover:bg-second-Color transition-all duration-300 cursor-pointer"
+              >
+                <a href="#">تعرفه</a>
+              </li>
+              <buttn
+                class="bg-basic-Color text-sm p-2 w-full cursor-pointer text-second-Color text-center"
+                >خرید محصـول</buttn
+              >
+            </ul>
+          </span>
+          <ul class="items-center hidden lg:flex">
+            <li
+              class="w-[150px] text-center transition-all duration-300 cursor-pointer text-basic-Color"
+            >
+              <a
+                class="pb-2 border-b-2 border-transparent hover:border-basic-Color"
+                href="#"
+                >صفحه نخست</a
+              >
+            </li>
+            <li
+              class="w-[150px] text-center transition-all duration-300 cursor-pointer text-basic-Color"
+            >
+              <a
+                class="pb-2 border-b-2 border-transparent hover:border-basic-Color"
+                href="#"
+                >درباره ما</a
+              >
+            </li>
+            <li
+              class="w-[150px] text-center transition-all duration-300 cursor-pointer text-basic-Color"
+            >
+              <a
+                class="pb-2 border-b-2 border-transparent hover:border-basic-Color"
+                href="#"
+                >تعرفه</a
+              >
+            </li>
+          </ul>
+
+          <!-- navbarTitle -->
+          <h1 class="text-lg md:text-2xl font-semibold text-basic-Color">
+            لندینگ شرکتی هادی
+          </h1>
+
+          <!-- buy btn -->
+          <buttn
+            class="rounded-md hover:bg-white hover:text-basic-Color border-2 border-transparent hover:border-basic-Color transition-all duration-200 bg-basic-Color font-semibold text-sm p-2 w-[140px] cursor-pointer text-second-Color text-center hidden lg:block"
+            >خرید محصـول</buttn
+          >
+        </nav>
+
+        <!-- header part -->
+        <div class="w-full flex md:flex-row-reverse lg:pr-20">
+          <img class="w-1/2 hidden md:block" src="./img/Header.png" alt="" />
+          <!-- header desc part -->
+          <div class="w-full md:w-1/2 p-4 flex flex-col justify-around">
+            <h1
+              class="text-3xl md:text-5xl w-full font-semibold text-basic-Color text-center md:text-right "
+              id="app"
+            >
+              
+            </h1>
+            <p class="mt-10 text-basic-Color text-lg md:text-2xl">
+              مخاطبان هدف خود را درک کنید. این امر حیاتی است زیرا زبان ، کانالها
+              و اطلاعاتی که شما برای برقراری ارتباط با یک جمعیت و استفاده از آن
+              استفاده می کنید ممکن است با دیگری موثر نباشد.
+            </p>
+            <p class="mt-5 text-basic-Color text-lg md:text-2xl">
+              درک مخاطبان هدف و چگونه به آنها برسد به طور موثر، هر دو با آگهی و
+              ذهنی است.
+            </p>
+            <div
+              class="sm:w-1/2 md:w-full mt-10 flex justify-between items-center"
+            >
+              <button
+                class="font-semibold w-1/2 py-2 rounded-md mx-2 bg-basic-Color text-second-Color border-2 border-transparent hover:border-basic-Color hover:bg-second-Color hover:text-basic-Color transition-all duration-200"
+              >
+                خرید محصول
+              </button>
+              <button
+                class="font-semibold w-1/2 py-2 rounded-md mx-2 bg-basic-Color text-second-Color border-2 border-transparent hover:border-basic-Color hover:bg-second-Color hover:text-basic-Color transition-all duration-200"
+              >
+                بیشتر بدانید
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Introduction part-->
+      <div class=" lg:px-20 px-4 pt-40 pb-10 overflow-hidden ">
+        <div class="flex flex-col md:flex-row-reverse  relative" id="introduction">
+          <img data-aos="fade-right" data-aos-delay="250"  data-aos-duration="500" class="transition-all duration-700   md:w-1/2 " src="./img/Introduction.png" alt=""   id="introduction-img" />
+          <div data-aos="fade-left" data-aos-delay="250"  data-aos-duration="500" class="transition-all duration-700    md:w-1/2   flex   flex-col justify-between pt-10 md:pt-0"  id="introduction-desc" >
+            <h1 class="text-3xl md:text-4xl text-basic-Color font-bold ">سبک ، سریع و قدرتمند</h1>
+            <p class="text-lg font-semibold small:text-xl mt-4">
+              همه چیز به فلسفه شما درباره نحوه برخورد با طراحی سایت بستگی دارد.
+              می توانید با طراحی هوشمندانه از ابتدای کار در بسیاری از مشکلات خود
+              صرفه جویی کنید تا از اقدامات مضر که بر سرعت بارگذاری سایت شما
+              تأثیر می گذارد ، جلوگیری کنید.
+            </p>
+            <p class="text-lg font-semibold small:text-xl mt-2">
+              طراحان باید به اصل واقعی مینیمالیسم پایبند باشند تا سایتی ایجاد
+              کنند که روی آن سبک باشد و بارگیری آن از یک صفحه به صفحه دیگر برای
+              همیشه طول نکشد.
+            </p>
+
+           
+            <div class=" flex flex-col items-center justify-evenly p-4 small:flex-row ">
+              <div class="w-[250px] h-[230px] flex flex-col items-center justify-evenly bg-second-Color p-2 m-1">
+                <span  >
+                  <i class="fas fa-folder-open text-3xl"></i>
+                </span>
+                <h4 class="text-center text-xl font-bold mt-2 text-basic-Color">درآمدزایی</h4>
+                <p class="mt-2 text-center">درآمد درآمد حاصل از فعالیتهای عادی تجاری است</p>
+              </div>
+                  <div class="w-[250px] h-[230px] flex flex-col items-center justify-evenly bg-second-Color p-2 m-1">
+                    <span  >
+                      <i class="fas fa-chart-area text-3xl"></i>
+                    </span>
+                    <h4 class="text-center text-xl font-bold mt-2 text-basic-Color">طرح تجاری</h4>
+                    <p class="mt-2 text-center">طرح تجاری سندی مکتوب است که به تفصیل شرح می دهد</p>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!-- Information part -->
+<div  class=" lg:px-20 px-4 pt-40 pb-10">
+  <div class="  flex flex-col items-center lg:flex-row">
+    <div class="lg:w-1/2 p-8 ">
+      <img src="./img/information.png" alt="">
+    </div>
+    <div class="lg:w-1/2 flex flex-col justify-between pt-10 md:pt-0 " >
+      <h1 class="text-3xl md:text-4xl text-basic-Color font-bold">ساخت وب سایت به مکانی بهتر</h1>
+      <p class="text-lg font-semibold small:text-xl mt-8">هیچ رازی نیست که شرکتهای بزرگ نرم افزاری گهگاه حفره های امنیتی بزرگی را در خود جای دهند. این داده های همه از اطلاعات شخصی گرفته تا امور مالی را به خطر می اندازد.</p>
+      <p class="text-lg font-semibold small:text-xl mt-2">
+        اگر در یافتن اشکالات تبحر دارید و می خواهید از استعداد خود برای خیر به جای شر استفاده کنید ، گوگل و فیس بوک برای پرداخت هزینه های دریافتی شما باز هستند.
+      </p>
+      <div class=" flex  items-center justify-evenly flex-wrap mt-8  ">
+        <div class="w-[200px] h-[200px] flex flex-col items-center justify-evenly bg-second-Color p-2 m-1">
+          <span  >
+            <i class="fas fa-folder-open text-3xl"></i>
+          </span>
+          <h4 class="text-center text-xl font-bold mt-2 text-basic-Color">درآمدزایی</h4>
+          <p class="mt-2 text-center">درآمد درآمد حاصل از فعالیتهای عادی تجاری است</p>
+        </div>
+        <div class="w-[200px] h-[200px] flex flex-col items-center justify-evenly bg-second-Color p-2 m-1">
+          <span  >
+            <i class="fas fa-folder-open text-3xl"></i>
+          </span>
+          <h4 class="text-center text-xl font-bold mt-2 text-basic-Color">درآمدزایی</h4>
+          <p class="mt-2 text-center">درآمد درآمد حاصل از فعالیتهای عادی تجاری است</p>
+        </div>
+        <div class="w-[200px] h-[200px] flex flex-col items-center justify-evenly bg-second-Color p-2 m-1">
+          <span  >
+            <i class="fas fa-folder-open text-3xl"></i>
+          </span>
+          <h4 class="text-center text-xl font-bold mt-2 text-basic-Color">درآمدزایی</h4>
+          <p class="mt-2 text-center">درآمد درآمد حاصل از فعالیتهای عادی تجاری است</p>
+        </div>
+        <div class="w-[200px] h-[200px] flex flex-col items-center justify-evenly bg-second-Color p-2 m-1">
+          <span  >
+            <i class="fas fa-folder-open text-3xl"></i>
+          </span>
+          <h4 class="text-center text-xl font-bold mt-2 text-basic-Color">درآمدزایی</h4>
+          <p class="mt-2 text-center">درآمد درآمد حاصل از فعالیتهای عادی تجاری است</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Mini Introduction 1 -->
+<div data-aos="zoom-in" data-aos-delay="250" class=" lg:px-20 px-4 pt-40 pb-10">
+  <div class=" flex flex-col items-center md:flex-row">
+    <img class="md:w-1/2 md:ml-8" src="./img/a-1.png" alt="">
+    <div class="lg:w-1/2 flex flex-col justify-between pt-10 md:pt-0 ">
+      <h1 class="text-3xl  md:text-4xl text-basic-Color font-bold">عناصر فریبنده و خلاق</h1>
+      <p class="text-lg font-semibold small:text-xl mt-8">شما به یک مخاطب کافی نیاز دارید تا بتوانید وقتی ایده محتوای جدیدی را امتحان می کنید یا پیشنهادی برای محصول یا خدمات خود تهیه می کنید ، پاسخ معنی دار بخشد.</p>
+      <p class="text-lg font-semibold small:text-xl mt-4">از کسی که می خواهد کسب و کار خود را خارج کند ، با یک لیست ایمیل 34 نفره ، که 8 نفر از آنها با آنها ارتباط دارند ، از او بخواهید.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Mini Introduction 2 -->
+<div data-aos="zoom-in-up" data-aos-delay="250" class=" lg:px-20 px-4 pt-40 pb-10">
+  <div class=" flex flex-col items-center md:flex-row">
+    <img class="md:w-1/2 md:ml-8" src="./img/a-2.png" alt="">
+    <div class="lg:w-1/2 flex flex-col justify-between pt-10 md:pt-0 ">
+      <h1 class="text-3xl  md:text-4xl text-basic-Color font-bold">آماده رفتن به صفحات داخلی</h1>
+      <p class="text-lg font-semibold small:text-xl mt-8">بیشتر کتابچه ها با روش اتصال Saddle-Stitch ایجاد می شوند. در این روش از ورقهای چاپی استفاده می شود كه در داخل دیگری تا می شوند و تو در تو قرار می گیرند و سپس با منگنه های مفتولی از طریق خط تا می خورند.</p>
+      <p class="text-lg font-semibold small:text-xl mt-4">منگنه ها از بیرون از چین چین خورده عبور می کنند و در میان صفحات مرکزی قرار می گیرند.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Mini Introduction 3 -->
+<div data-aos="zoom-in" data-aos-delay="250" class=" lg:px-20 px-4 pt-40 pb-10">
+  <div class=" flex flex-col items-center md:flex-row">
+    <img class="md:w-1/2 md:ml-8" src="./img/a-3.png" alt="">
+    <div class="lg:w-1/2 flex flex-col justify-between pt-10 md:pt-0 ">
+      <h1 class="text-3xl  md:text-4xl text-basic-Color font-bold">آوردن تجارت جدید IT</h1>
+      <p class="text-lg font-semibold small:text-xl mt-8">پس از نتیجه گیری اینکه راه حل مناسب شرکت شما خواهد بود ، زمان آن فرا رسیده است که اجرای آن را شروع کنید. در طول این فرآیند ، شما باید با کاربران آینده راه حل شفاف باشید.</p>
+      <p class="text-lg font-semibold small:text-xl mt-4">به روشنی توضیح دهید که شما چطور قصد استفاده از فناوری مورد استفاده را دارید ، حمایتی که از شما ارائه می شود و اینکه به طور کلی به نفع تجارت است.</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- About part -->
+<div class=" lg:px-20 px-4 pt-40 pb-10">
+  <div class=" flex flex-col items-center md:flex-row-reverse ">
+    <img class="md:w-1/2 " src="./img/s.jpg" alt="">
+    <div class="lg:w-1/2 flex flex-col justify-between pt-10 md:pt-0 ">
+      <h1 class="text-3xl  md:text-4xl text-basic-Color font-bold">عالی برای استارتاپ ها و فناوری</h1>
+      <p class="text-lg font-semibold small:text-xl mt-8">این شرکت تازه تأسیس از دو سال گذشته عملیاتی است اما اخیراً بودجه ای غیرعلنی از بنیاد بیل و ملیندا گیتس دریافت کرده است.</p>
+      <p class="text-lg font-semibold small:text-xl mt-4">هر روز که می گذرد ، ما به سمت اولین جهان AI می رویم و این زمان خوبی برای استارت آپ های فناوری است که بتوانند اثر خود را بگذارند.</p>
+      <div class=" flex flex-col items-center justify-evenly p-4  mt-20">
+        <div class="w-full flex flex-col items-start justify-evenly bg-second-Color p-2 m-1">
+          <span  >
+            <i class="fas fa-user text-3xl"></i>
+          </span>
+          <h4 class=" text-xl font-bold mt-2 text-basic-Color">ذهن خلاق</h4>
+          <p class="mt-2 ">ذهن خلاق ، ذهنی است که اطلاعات را - به ویژه از جهان پیرامون خود - می بیند و آنها را به تجربیات و دانش موجود خود برای ایجاد ارتباط می دهد.</p>
+        </div>
+        <div class="w-full flex flex-col items-start justify-evenly bg-second-Color p-2 m-1">
+          <span  >
+            <i class="fas fa-chart-area text-3xl"></i>
+          </span>
+          <h4 class=" text-xl font-bold mt-2 text-basic-Color">مهندسی و خدمات</h4>
+          <p class="mt-2 ">مهندسی استفاده از اصول علمی برای طراحی و ساخت ماشین آلات ، سازه ها و سایر موارد از جمله پل ها ، تونل ها ، جاده ها ، وسایل نقلیه و ساختمان ها است.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- price part -->
+<div  class="position-relative">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
+      <path fill="#F3F5FF" fill-opacity="1" d="M0,128L120,144C240,160,480,192,720,192C960,192,1200,160,1320,144L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+    </svg>
+  </div>
+  <div data-aos="fade-up"  class=" pt-32 pb-10 bg-second-Color  flex items-center justify-center" >
+    <div class="md:w-1/2 flex flex-col items-center justify-between pt-10 md:pt-0 px-4">
+      <h1 class="text-3xl  md:text-4xl text-basic-Color font-bold">قیمت مناسب همه</h1>
+      <p class="text-lg font-semibold small:text-xl mt-8 text-center">ما دو گزینه استفاده را برای مشتریان ، مجوز شخصی یا مجوز انعطاف پذیر ارائه می دهیم. شما می دانید که با توجه به اندازه کسب و کار و تعداد کاربرانی که برای دسترسی به نرم افزار لازم هستند ، کدام گزینه برای شما مناسب است.</p>
+     <div class="mt-10  flex flex-col">
+      <h3 class="text-3xl   text-basic-Color font-bold flex flex-col items-center">۴۰۰ هزار تومان</h3>
+      <p class="text-center my-4">استفاده نامحدود</p>
+      <buttn
+            class="rounded-md hover:bg-white hover:text-basic-Color border-2 border-transparent hover:border-basic-Color transition-all duration-200 bg-basic-Color font-semibold text-sm p-2 w-full cursor-pointer text-second-Color text-center "
+            >سفارش محصـول</buttn
+          >
+     </div>
+  </div>  
+  
+  </div>
+  
+
+<!-- footer part -->
+<div class="  pt-40 ">
+  <div class="w-full bg-second-Color lg:px-20 px-4 pt-40">
+    <div class="flex flex-col items-start md:items-center md:flex-row justify-between md:py-4">
+      <p class="text-lg font-semibold  mb-4 md:mb-0">© 2020 شرکت شما</p>
+      <h1 class="text-2xl  md:text-3xl text-basic-Color font-bold mb-4 md:mb-0">لندینگ شرکتی کیان</h1>
+      <buttn
+              class="rounded-md hover:bg-white hover:text-basic-Color border-2 border-transparent hover:border-basic-Color transition-all duration-200 bg-basic-Color font-semibold text-sm p-2  cursor-pointer text-second-Color text-center mb-4 md:mb-0"
+              >خرید محصـول</buttn
+            >
+    </div>
+    <hr>
+    
+    <div class="flex flex-col items-start md:items-center md:flex-row justify-evenly   md:py-4">
+      <p class="text-base font-semibold  mb-4 md:mb-0">
+        طراحی شده  توسط هادی
+        </p>
+       <div class="flex items-center justify- ">
+        <span class="text-xl mx-2 cursor-pointer hover:text-red-600"><i class="fab fa-instagram"></i></span>
+        <span class="text-xl mx-2 cursor-pointer hover:text-blue-800"><i class="fab fa-facebook"></i></span>
+        <span class="text-xl mx-2 cursor-pointer hover:text-blue-900"><i class="fab fa-linkedin"></i></span>
+        <span class="text-xl mx-2 cursor-pointer hover:text-blue-500"><i class="fab fa-twitter"></i></span>
+       </div>
+    </div>
+  </div>
+</div>
+
+      
+    </section>
+    
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
